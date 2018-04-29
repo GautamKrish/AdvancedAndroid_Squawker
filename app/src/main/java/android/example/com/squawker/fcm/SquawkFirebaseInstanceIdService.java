@@ -8,7 +8,7 @@ import com.google.firebase.iid.FirebaseInstanceIdService;
 /*
  ** Created by Gautam Krishnan {@link https://github.com/GautiKrish}
  */public class SquawkFirebaseInstanceIdService extends FirebaseInstanceIdService {
-    private static final String TAG = "MyFirebaseIIDService";
+    private static final String TAG = SquawkFirebaseInstanceIdService.class.getSimpleName();
 
 
     @Override
